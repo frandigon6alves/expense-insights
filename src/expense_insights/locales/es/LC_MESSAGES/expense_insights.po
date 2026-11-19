@@ -1,0 +1,355 @@
+# Spanish translations for expense-insights.
+# Copyright (C) 2026 Franciellen Gonçalves
+# This file is distributed under the same license as the expense-insights
+# project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: expense-insights 0.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/frandigon6alves/expense-"
+"insights/issues\n"
+"POT-Creation-Date: 2026-11-19 10:42+0100\n"
+"PO-Revision-Date: 2026-11-19 10:37+0100\n"
+"Last-Translator: Franciellen Gonçalves\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+msgid "Amount"
+msgstr "Importe"
+
+msgid "By category"
+msgstr "Por categoría"
+
+msgid "CHAR"
+msgstr "CARÁCTER"
+
+msgid "CODE"
+msgstr "CÓDIGO"
+
+msgid "CSV layout"
+msgstr "Formato del CSV"
+
+msgid ""
+"Categorize bank-statement CSV exports with your own rules and print a "
+"monthly report: totals per category, change from the previous month, top "
+"merchants and uncategorized transactions."
+msgstr ""
+"Clasifica los extractos bancarios exportados en CSV con tus propias "
+"reglas e imprime un informe mensual: totales por categoría, variación "
+"respecto al mes anterior, comercios principales y movimientos sin "
+"categoría."
+
+msgid "Category"
+msgstr "Categoría"
+
+msgid "Change"
+msgstr "Variación"
+
+#, python-brace-format
+msgid "Could not understand the date {value!r}. Tried formats: {formats}."
+msgstr "No se pudo interpretar la fecha {value!r}. Formatos probados: {formats}."
+
+msgid "Count"
+msgstr "Mov."
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "Every transaction matched a rule."
+msgstr "Todos los movimientos coinciden con alguna regla."
+
+#, python-brace-format
+msgid ""
+"Example:\n"
+"  {prog} statement.csv --rules rules.toml --month 2026-03"
+msgstr ""
+"Ejemplo:\n"
+"  {prog} extracto.csv --rules reglas.toml --month 2026-03"
+
+#, python-brace-format
+msgid "Expense report for {month}"
+msgstr "Informe de gastos de {month}"
+
+msgid "Expenses"
+msgstr "Gastos"
+
+msgid "FILE"
+msgstr "ARCHIVO"
+
+msgid "FORMAT"
+msgstr "FORMATO"
+
+msgid "ISO 4217 currency of the amounts (default: from the rules file, else USD)"
+msgstr ""
+"moneda ISO 4217 de los importes (por defecto: la del archivo de reglas o "
+"USD)"
+
+msgid "Income"
+msgstr "Ingresos"
+
+msgid "Input"
+msgstr "Entrada"
+
+msgid "LANG"
+msgstr "IDIOMA"
+
+msgid "Last month"
+msgstr "Mes anterior"
+
+msgid "Merchant"
+msgstr "Comercio"
+
+msgid "N"
+msgstr "N"
+
+msgid "NAME"
+msgstr "NOMBRE"
+
+msgid "Net"
+msgstr "Saldo neto"
+
+msgid "No spending this month."
+msgstr "No hay gastos este mes."
+
+msgid "No transactions found."
+msgstr "No se encontraron movimientos."
+
+#, python-brace-format
+msgid "No transactions in {month}. Months in the data: {months}."
+msgstr "No hay movimientos en {month}. Meses con datos: {months}."
+
+msgid "Other"
+msgstr "Otros"
+
+msgid "Report"
+msgstr "Informe"
+
+#, python-brace-format
+msgid "Rules file not found: {path}"
+msgstr "No se encontró el archivo de reglas: {path}"
+
+msgid "STATEMENT.csv"
+msgstr "EXTRACTO.csv"
+
+msgid "Spent"
+msgstr "Gastado"
+
+msgid "Summary"
+msgstr "Resumen"
+
+msgid "TOML file with categories, matching rules and CSV settings"
+msgstr "archivo TOML con categorías, reglas de clasificación y ajustes del CSV"
+
+msgid "These options override the [csv] section of the rules file."
+msgstr "Estas opciones sustituyen a la sección [csv] del archivo de reglas."
+
+msgid "This month"
+msgstr "Este mes"
+
+msgid "Top merchants"
+msgstr "Comercios principales"
+
+msgid "Uncategorized"
+msgstr "Sin categoría"
+
+#, python-brace-format
+msgid "Uncategorized transactions ({count})"
+msgstr "Movimientos sin categoría ({count})"
+
+msgid "YYYY-MM"
+msgstr "AAAA-MM"
+
+msgid "amount column (default: amount)"
+msgstr "columna del importe (por defecto: amount)"
+
+#, python-brace-format
+msgid "argument {name}: {message}"
+msgstr "argumento {name}: {message}"
+
+#, python-brace-format
+msgid "choose one of: {choices}"
+msgstr "elige uno de: {choices}"
+
+msgid "date column (default: date)"
+msgstr "columna de la fecha (por defecto: date)"
+
+msgid "decimal separator used in amounts (default: point)"
+msgstr "separador decimal de los importes (por defecto: point)"
+
+msgid "description column (default: description)"
+msgstr "columna de la descripción (por defecto: description)"
+
+msgid "expected a month like 2026-03"
+msgstr "se esperaba un mes como 2026-03"
+
+msgid "expected a positive whole number"
+msgstr "se esperaba un número entero positivo"
+
+msgid "expected a three-letter currency code such as EUR"
+msgstr "se esperaba un código de moneda de tres letras, como EUR"
+
+msgid "field delimiter (default: detected)"
+msgstr "delimitador de campos (por defecto: detección automática)"
+
+msgid "file encoding (default: utf-8)"
+msgstr "codificación del archivo (por defecto: utf-8)"
+
+msgid "give at least one statement CSV file"
+msgstr "indica al menos un archivo CSV de extracto"
+
+msgid "how many top merchants to list (default: 5)"
+msgstr "cuántos comercios principales mostrar (por defecto: 5)"
+
+msgid "language and number/date format, e.g. en, es, pt_BR (default: $LANG)"
+msgstr ""
+"idioma y formato de números y fechas, p. ej. en, es, pt_BR (por defecto: "
+"$LANG)"
+
+msgid "month to report on (default: the latest month in the data)"
+msgstr "mes del informe (por defecto: el último mes con datos)"
+
+msgid "new"
+msgstr "nuevo"
+
+msgid "one or more CSV exports from your bank"
+msgstr "uno o más CSV exportados de tu banco"
+
+msgid "output format (default: table)"
+msgstr "formato de salida (por defecto: table)"
+
+msgid "show the version and exit"
+msgstr "muestra la versión y sale"
+
+msgid "show this help and exit"
+msgstr "muestra esta ayuda y sale"
+
+msgid "strftime date format, may be repeated (default: try common formats)"
+msgstr ""
+"formato de fecha strftime, se puede repetir (por defecto: prueba los "
+"formatos habituales)"
+
+msgid "the delimiter must be a single character"
+msgstr "el delimitador debe ser un solo carácter"
+
+#, python-brace-format
+msgid "unrecognized arguments: {args}"
+msgstr "argumentos no reconocidos: {args}"
+
+msgid "usage: "
+msgstr "uso: "
+
+msgid "use \"point\" or \"comma\""
+msgstr "usa \"point\" o \"comma\""
+
+#, python-brace-format
+msgid "{count} transaction, compared with {previous}"
+msgid_plural "{count} transactions, compared with {previous}"
+msgstr[0] "{count} movimiento, comparado con {previous}"
+msgstr[1] "{count} movimientos, comparados con {previous}"
+
+#, python-brace-format
+msgid "{path}, line {line}: expected at least {count} columns."
+msgstr "{path}, línea {line}: se esperaban al menos {count} columnas."
+
+#, python-brace-format
+msgid "{path}, line {line}: {value!r} is not a valid amount."
+msgstr "{path}, línea {line}: {value!r} no es un importe válido."
+
+#, python-brace-format
+msgid "{path}: column {column!r} not found. Available columns: {available}."
+msgstr ""
+"{path}: no se encontró la columna {column!r}. Columnas disponibles: "
+"{available}."
+
+#, python-brace-format
+msgid "{path}: could not read file ({error})."
+msgstr "{path}: no se pudo leer el archivo ({error})."
+
+#, python-brace-format
+msgid "{path}: file not found."
+msgstr "{path}: archivo no encontrado."
+
+#, python-brace-format
+msgid "{path}: invalid TOML ({error})."
+msgstr "{path}: TOML no válido ({error})."
+
+#, python-brace-format
+msgid "{path}: the file is empty."
+msgstr "{path}: el archivo está vacío."
+
+#, python-brace-format
+msgid "{prog}: error: {message}"
+msgstr "{prog}: error: {message}"
+
+#, python-brace-format
+msgid "{source}: 'currency' must be a three-letter code such as \"EUR\"."
+msgstr "{source}: 'currency' debe ser un código de tres letras, como \"EUR\"."
+
+#, python-brace-format
+msgid "{source}: [csv] date_formats must be a list of strings."
+msgstr "{source}: [csv] date_formats debe ser una lista de textos."
+
+#, python-brace-format
+msgid "{source}: [csv] decimal must be \"point\" or \"comma\"."
+msgstr "{source}: [csv] decimal debe ser \"point\" o \"comma\"."
+
+#, python-brace-format
+msgid "{source}: [csv] must be a table."
+msgstr "{source}: [csv] debe ser una tabla."
+
+#, python-brace-format
+msgid "{source}: [csv] {key} must be a non-empty string."
+msgstr "{source}: [csv] {key} debe ser un texto no vacío."
+
+#, python-brace-format
+msgid "{source}: category #{index}"
+msgstr "{source}: categoría n.º {index}"
+
+#, python-brace-format
+msgid "{source}: category #{index} is not a table."
+msgstr "{source}: la categoría n.º {index} no es una tabla."
+
+#, python-brace-format
+msgid "{source}: unknown key(s) in [csv]: {keys}."
+msgstr "{source}: clave(s) desconocida(s) en [csv]: {keys}."
+
+#, python-brace-format
+msgid "{source}: use [[category]] blocks to define categories."
+msgstr "{source}: usa bloques [[category]] para definir las categorías."
+
+#, python-brace-format
+msgid "{where}: 'name' is required."
+msgstr "{where}: 'name' es obligatorio."
+
+#, python-brace-format
+msgid "{where}: '{key}' must be a list of non-empty strings."
+msgstr "{where}: '{key}' debe ser una lista de textos no vacíos."
+
+#, python-brace-format
+msgid "{where}: '{key}' must be a number."
+msgstr "{where}: '{key}' debe ser un número."
+
+#, python-brace-format
+msgid "{where}: add keywords, patterns or an amount range."
+msgstr "{where}: añade keywords, patterns o un rango de importes."
+
+#, python-brace-format
+msgid "{where}: invalid pattern {pattern!r} ({error})."
+msgstr "{where}: patrón no válido {pattern!r} ({error})."
+
+#, python-brace-format
+msgid "{where}: min_amount is greater than max_amount."
+msgstr "{where}: min_amount es mayor que max_amount."
+
+#, python-brace-format
+msgid "{where}: unknown key(s): {keys}."
+msgstr "{where}: clave(s) desconocida(s): {keys}."
+
