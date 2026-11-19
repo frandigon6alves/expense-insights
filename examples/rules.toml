@@ -1,0 +1,53 @@
+# Rules for examples/statement.csv. All data in this folder is invented.
+#
+# Categories are tried from top to bottom; the first matching block wins.
+# A block matches when the description contains one of its keywords (case- and
+# accent-insensitive) OR matches one of its regular expressions, AND the amount
+# is inside [min_amount, max_amount] when those are given. Spending is negative.
+
+currency = "EUR"
+
+[csv]
+date = "Date"
+description = "Description"
+amount = "Amount"
+decimal = "point"
+date_formats = ["%Y-%m-%d"]
+
+[[category]]
+name = "Salary"
+keywords = ["payroll"]
+min_amount = 0
+
+[[category]]
+name = "Transfers"
+patterns = ['^TRANSFER (FROM|TO) ']
+
+[[category]]
+name = "Housing"
+keywords = ["rent", "lumen energy"]
+
+[[category]]
+name = "Groceries"
+keywords = ["greenleaf market"]
+
+[[category]]
+name = "Eating out"
+keywords = ["cafe", "trattoria", "restaurant"]
+
+[[category]]
+name = "Transport"
+keywords = ["metro transit"]
+
+[[category]]
+name = "Subscriptions"
+keywords = ["subscription", "membership"]
+
+[[category]]
+name = "Health"
+keywords = ["farmacia", "pharmacy"]
+
+# Anything else above 200 is flagged as a big purchase, whatever the merchant.
+[[category]]
+name = "Big purchases"
+max_amount = -200
